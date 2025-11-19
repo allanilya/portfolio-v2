@@ -22,7 +22,7 @@ import { LucideGithub, LucideLinkedin, FileText } from 'lucide-react';
 
 export default function Hero() {
   return (
-    <section className="min-h-screen flex flex-col items-center justify-center px-4 py-20">
+    <section className="relative z-10 min-h-screen flex flex-col items-center justify-center px-4 py-20">
       <div className="max-w-4xl w-full text-center">
         {/* PROFILE PHOTO */}
         <div className="mb-8 flex justify-center">

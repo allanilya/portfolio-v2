@@ -48,7 +48,7 @@ export default function Projects() {
   };
 
   return (
-    <section id="projects" className="py-20 px-4">
+    <section id="projects" className="relative z-10 py-20 px-4">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-4xl font-bold mb-12 text-center">Projects</h2>
 
