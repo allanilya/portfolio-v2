@@ -37,7 +37,7 @@ export default function Hero() {
             - w-72 h-72 = extra-large (288px)
             - w-80 h-80 = huge (320px)
           */}
-          <div className="relative w-70 h-70 rounded-full overflow-hidden bg-gradient-to-br from-blue-600 to-purple-600">
+          <div className="relative w-72 h-72  overflow-hidden rounded-full">
             {/*
               ADJUSTING IMAGE POSITION WITHIN CIRCLE:
 
@@ -73,10 +73,11 @@ export default function Hero() {
             <img
               src="profilepic.jpeg"
               alt="Allan Ilyasov"
-              className="w-full h-full object-cover"
+              className="h-full object-cover"
               style={{
-                transform: 'scale(1.2)',
-                objectPosition: '0% 10%'  // First number = horizontal (LEFT/RIGHT), Second = vertical (UP/DOWN)
+                width: '100%',  // Make image wider than container so horizontal positioning works
+                transform: 'scale(1.1)',
+                objectPosition: '0% 0%'  // NOW both values work! First = left/right, Second = up/down
               }}
             />
           </div>
@@ -84,7 +85,7 @@ export default function Hero() {
 
         {/* NAME - Change your name here */}
         <h1 className="text-6xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-          ALLAN ILYASOV
+          Allan Ilyasov
         </h1>
 
         {/* TITLE - Change your professional title here */}
