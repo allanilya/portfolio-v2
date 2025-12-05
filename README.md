@@ -1,4 +1,4 @@
-# Allan Ilyasov - Portfolio Website
+# Allan Ilyasov - Portfolio Website V1
 
 A modern, responsive portfolio website built with Next.js, TypeScript, and Tailwind CSS.
 
