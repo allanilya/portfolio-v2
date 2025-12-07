@@ -10,11 +10,17 @@
     "postinstall": "cp -f node_modules/lightningcss-darwin-arm64/lightningcss.darwin-arm64.node node_modules/lightningcss/lightningcss.darwin-x64.node 2>/dev/null || true"
   },
   "dependencies": {
+    "@pixi/react": "^8.0.5",
+    "@react-three/drei": "^10.7.7",
+    "@react-three/fiber": "^9.4.2",
+    "framer-motion": "^12.23.25",
     "lightningcss": "^1.30.2",
     "lucide-react": "^0.554.0",
     "next": "16.0.3",
+    "pixi.js": "^8.14.3",
     "react": "19.2.0",
-    "react-dom": "19.2.0"
+    "react-dom": "19.2.0",
+    "three": "^0.181.2"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
